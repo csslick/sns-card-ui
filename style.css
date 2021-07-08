@@ -20,3 +20,48 @@ a {
   2.하단정보영역 높이: 46%
   3.서체, 색상 설정
 */
+
+header {
+  position: absolute;
+  width: 100vw;
+}
+
+header > .back-btn {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+header > .toggle-btn {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  background: none;
+  border: none;
+}
+.back-btn, .toggle-btn {
+  font-size: 28px;
+  color: #fff;
+  z-index: 999;
+}
+
+.card {
+  position: relative;
+  width: 100vw; 
+  height: 100vh;
+  background: #ccc;
+}
+.card > figure {
+  height: 59vh;
+  background: #999;
+}
+
+.card .info {
+  height: 46vh;
+  width: 100vw;
+  position: absolute;
+  background: #ff0;
+  bottom: 0;
+  left: 0;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
