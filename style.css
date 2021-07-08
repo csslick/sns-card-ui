@@ -1,0 +1,22 @@
+/* style.css */
+:root {
+  --main-color: #1ABC9C;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+/*  
+  1.사진영역높이: 59%
+  2.하단정보영역 높이: 46%
+  3.서체, 색상 설정
+*/
