@@ -11,9 +11,16 @@
 
 body {
   font-family: 'Noto Sans KR', sans-serif;
+  color: #444;
+  font-size: 16px;
 }
+
 a {
   text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
 }
 /*  
   1.사진영역높이: 59%
@@ -71,4 +78,36 @@ header > .toggle-btn {
   left: 0;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card > .info .container {
+  outline: 1px solid red;
+  width: 100vw;
+}
+
+.card > .info .name {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+.card > .info .location {
+  margin-bottom: 26px;
+}
+.card > .info .count-info {
+  display: flex;
+  margin-bottom: 50px;
+}
+.card > .info .count-info > li {
+  outline: 1px solid green;
+  flex: 1;
+}
+.card > .info .count-info .count {
+  font-size: 22px;
+}
+.card > .info .count-info .title {
+  font-size: 12px;
+  color: #707070;
 }
