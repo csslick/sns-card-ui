@@ -22,6 +22,10 @@ a {
 ul {
   list-style-type: none;
 }
+
+.iconify {
+  font-size: 48px;
+}
 /*  
   1.사진영역높이: 59%
   2.하단정보영역 높이: 46%
@@ -35,13 +39,13 @@ header {
 
 header > .back-btn {
   position: absolute;
-  left: 30px;
-  top: 30px;
+  left: 20px;
+  top: 20px;
 }
 header > .toggle-btn {
   position: absolute;
-  right: 30px;
-  top: 30px;
+  right: 20px;
+  top: 20px;
   background: none;
   border: none;
 }
